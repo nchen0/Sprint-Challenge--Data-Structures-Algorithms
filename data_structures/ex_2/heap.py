@@ -2,7 +2,7 @@ def heapsort(arr):
     heap = Heap()
     sorting = []
     for item in arr:
-        heap.insert(i)
+        heap.insert(item)
     while heap.get_size() != 0:
         sorting.append(heap.delete())
     return sorting[::-1]
